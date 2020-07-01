@@ -4,7 +4,7 @@ services:
     build: web
     command: python app.py
     ports:
-     - "5000:5000"
+     - "8091:80"
     volumes:
      - ./web:/code # modified here to take into account the new app path
     links:
